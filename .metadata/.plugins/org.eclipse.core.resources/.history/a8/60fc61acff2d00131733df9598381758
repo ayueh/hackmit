@@ -1,0 +1,40 @@
+package com.example.keyvibe;
+
+import android.hardware.SensorEventListener;
+import android.hardware.SensorManager;
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.widget.TextView;
+
+public class AccelerometerVals extends Activity implements SensorEventListener {
+	private SensorManager sensorManager;
+	private float gravity[] = new float[3];
+	private final float alpha = .8f;
+	
+	private TextView xCoor; // declare X axis object
+	private TextView yCoor; // declare Y axis object
+	private TextView zCoor; // declare Z axis object\
+	private TextView xMax;
+	private TextView xMin;
+	private TextView yMax;
+	private TextView yMin;
+	private TextView zMax;
+	private TextView zMin;
+	private TextView magnitude;
+	private double xmin, xmax, ymin, ymax, zmin, zmax, mag, maxMag;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_accelerometer_vals);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.accelerometer_vals, menu);
+		return true;
+	}
+
+}

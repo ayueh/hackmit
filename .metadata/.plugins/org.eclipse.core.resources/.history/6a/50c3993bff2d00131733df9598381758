@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout	
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+    <TableRow>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_reset"
+        android:onClick = "reset"/>
+    </TableRow>
+    
+    <TableRow>
+	<TextView 
+		android:id="@+id/xCoor"
+		android:text="X Coordinate: "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	</TableRow>
+    
+	<TableRow>
+	<TextView 
+		android:id="@+id/z1"
+		android:text="X "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+		android:id="@+id/z2"
+		android:text="X "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+		android:id="@+id/z3"
+		android:text="X "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	</TableRow>	
+	
+	<TableRow>
+	<TextView 
+		android:id="@+id/z4"
+		android:text="X "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	</TableRow>
+		
+	<TableRow>
+	<TextView 
+		android:id="@+id/z5"
+		android:text="X "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	</TableRow>
+		
+	<TableRow>
+	<TextView 
+		android:id="@+id/z6"
+		android:text="X "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	</TableRow>
+		
+	<TableRow>
+	<TextView 
+		android:id="@+id/z7"
+		android:text="X "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	</TableRow>
+		
+	<TableRow>
+	<TextView 
+		android:id="@+id/z8"
+		android:text="X "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	</TableRow>
+		
+	<TableRow>
+	<TextView 
+		android:id="@+id/z9"
+		android:text="X "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	</TableRow>
+	<TableRow>
+	<TextView 
+		android:id="@+id/z10"
+		android:text="X "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	</TableRow>
+		
+</TableLayout>

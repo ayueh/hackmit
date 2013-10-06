@@ -1,0 +1,23 @@
+package com.example.vibe;
+
+
+public class concatenatearr{
+	private double arr[];
+	
+	public concatenatearr(double in[], int index){
+		arr = new double[in.length];
+		System.Arraycopy(in, index, arr, 0, in.length-index);
+		System.Arraycopy(in, 0, arr, in.length-index, index);
+	}
+	
+	public void printVals(){
+		for(int i = 0; i<(arr.length); i++)
+		{
+			System.out.printf("%f, ", arr[i]);
+		}
+	}
+	
+	public double[] getValues(){
+		return arr;
+	}
+}

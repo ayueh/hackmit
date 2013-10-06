@@ -1,0 +1,23 @@
+package com.example.vibe;
+
+
+public class concatenateArray{
+	private double Array[];
+	
+	public concatenateArray(double Data[], int index){
+		Array = new double[Data.length];
+		System.arraycopy(Data, index, Array, 0, Data.length-index);
+		System.arraycopy(Data, 0, Array, Data.length-index, index);
+	}
+	
+	public void printVals(){
+		for(int i = 0; i<(Array.length); i++)
+		{
+			System.out.printf("%f, ", Array[i]);
+		}
+	}
+	
+	public double[] getValues(){
+		return Array;
+	}
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout	
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout>
+    <Button
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:text="calibrate"
+     android:onClick="calibrate" />
+    
+    <Button
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:text="showX"
+     android:onClick="showX" />
+    
+    <Button
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:text="showY"
+     android:onClick="showY" />
+    
+    <Button
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:text="showZ"
+     android:onClick="showZ" />
+    </LinearLayout>
+	<TableRow>
+	<TextView 
+		android:id="@+id/mag"
+		android:text="mag: "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	</TableRow>
+    
+	<TableRow>
+	<TextView 
+		android:id="@+id/xcoor"
+		android:text="X Coordinate: "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	</TableRow>
+
+	<TableRow>
+	<TextView 
+		android:id="@+id/ycoor"
+		android:text="Y Coordinate: "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+		android:id="@+id/zcoor"
+		android:text="Z Coordinate: "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	</TableRow>
+		
+</TableLayout>
